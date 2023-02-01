@@ -1,5 +1,7 @@
 package ejercicio;
 
+import java.util.Arrays;
+
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class Ejercicio1 {
 				tabla [i][j]= 10 * i+j;
 			}
 		}
-		
+
 		//For para recorrer filas
 		for(int i =0;i<tabla.length;i++) {
 			//For para recorrer columas

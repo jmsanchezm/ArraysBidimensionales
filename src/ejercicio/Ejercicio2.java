@@ -15,7 +15,7 @@ public class Ejercicio2 {
 		//Creamos un for para que recorra las filas
 		for (int i =0;i<matriz.length;i++) {
 			//Solictamos dato
-			System.out.println("Introduzca los valores dela tabla de multiplicar del "+ (i+1));
+			System.out.println("Tabla de multiplicar del "+ (i+1));
 			//Creamos otro for (anidado) para que recorra las columnas
 			for (int j=0;i<matriz[i].length;i++) {
 				//Leemos dato
