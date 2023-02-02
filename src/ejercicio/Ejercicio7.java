@@ -1,5 +1,7 @@
 package ejercicio;
 
+import java.util.Arrays;
+
 public class Ejercicio7 {
 
 	public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class Ejercicio7 {
 		int aux;
 		
 		for (int i=0; i<matrizA.length;i++) {
-			for (int j=0;j<matrizA[i].length;j++) {
+			for (int j=i;j<matrizA[i].length;j++) {
 				//Intercambiamos las posiciones
 				aux=matrizA[i][j];
 				matrizA[i][j]=matrizA[j][i];
@@ -18,7 +20,7 @@ public class Ejercicio7 {
 				
 			}
 		}
-		 
+		 System.out.println(Arrays.deepToString(matrizA));
 	}
 
 }

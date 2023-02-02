@@ -4,8 +4,10 @@ public class Ejercicio4 {
 
 	public static void main(String[] args) {
 		
+		//Creamos el array
 		int num [][]= new int[3][6];
 		
+		//Introducimos los datos manualmente
 		num[0][1]=30;
 		num[0][2]=2;
 		num[0][5]=5;
